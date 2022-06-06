@@ -1,3 +1,8 @@
+# Curso de CSS: Flexbox e Grid
+
+* Anotações no Notion: 📚[Eduarda's Notion](https://trusting-pudding-50c.notion.site/CSS-Flexbox-e-Grid-a7117177e3c148e58cb627029ba48520) 
+
+
 # Guia de estilos
 
 Toda a estilização que será usada no projeto dentro do figma.
