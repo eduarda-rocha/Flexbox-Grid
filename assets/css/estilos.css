@@ -34,3 +34,73 @@ body{
     width: 40px
 }
 
+.menu-lateral{
+    display:flex;
+    flex-direction: column;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
+
+    position: absolute;
+    left: -100vw;
+}
+
+.menu-lateral--ativo{
+    left:0;
+    transition: .25s;
+
+}
+
+.menu-lateral__logo{
+    align-self: center;
+    width:118px;
+    padding: 16px;
+}
+
+.menu-lateral__link{
+    height: 64px;
+    color: #95999C;
+    padding-left: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-lateral__link--ativo{
+    color:#FFFFFF;
+    padding-left: 56px;
+    border-left: 1px solid #FFFFFF;
+}
+
+.menu-lateral__link::before{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    left: 24px;
+    position: absolute;
+}
+
+.menu-lateral__link--inicio::before{
+    content: "\e902";
+    font-family: 'icones';
+}
+
+.menu-lateral__link--videos::before{
+    content: "\e90e";
+    font-family: 'icones';
+}
+.menu-lateral__link--picos::before{
+    content: "\e909";
+    font-family: 'icones';
+}
+.menu-lateral__link--integrantes::before{
+    content: "\e903";
+    font-family: 'icones';
+}
+.menu-lateral__link--camisas::before{
+    content: "\e900";
+    font-family: 'icones';
+}
+.menu-lateral__link--pinturas::before{
+    content: "\e90a";
+    font-family: 'icones';
+}
